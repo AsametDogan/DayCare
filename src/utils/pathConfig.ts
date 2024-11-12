@@ -1,5 +1,7 @@
 export const pathConfig = {
-  unauth: "login",
+  unauth: {
+    login: "login",
+  },
   main: {
     home: "home",
     profile: "profile",
